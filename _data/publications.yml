@@ -1,0 +1,8 @@
+main:
+
+  - title: Decomposing God Header File via Multi-View Graph Clustering
+    authors: Yue Wang, Wenhui Chang, <strong>Tongwei Deng</strong>, Yanzhen Zou, Bing Xie
+    conference_short: ICSME
+    conference: IEEE International Conference on Software Maintenance and Evolution <strong>(ICSME)</strong>, 2024.
+    pdf: https://doi.org/10.1109/ICSME58944.2024.00021
+    bibtex: https://dblp.org/rec/conf/icsm/WangCDZX24.bib
