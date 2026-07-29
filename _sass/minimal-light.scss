@@ -627,7 +627,7 @@ body { background:#fafbf8; color:#4b5560; }
 .top-nav-links a { color:#66727a; font-family:"Ubuntu Mono", monospace; font-size:.77rem; }
 .top-nav-links a:hover, .top-nav-brand:hover { color:#176f9c; }
 .site-shell { gap:4rem; grid-template-columns:235px minmax(0, 760px); max-width:1080px; padding:3rem 2.5rem 4rem; }
-.profile-panel { background:transparent; border-right:1px solid #e1e6e0; color:#59646a; min-height:auto; padding:1.5rem 2rem 1.5rem 0; position:sticky; top:6rem; }
+.profile-panel { background:transparent; border-right:1px solid #e1e6e0; color:#59646a; min-height:auto; padding:1.5rem 2rem 1.5rem 0; position:static; }
 .profile-panel:before { background:#e98d52; height:3px; margin-bottom:1.8rem; width:3.2rem; }
 .image.avatar img { background:#fff; border:1px solid #e2e8e3; padding:.45rem; width:132px; }
 .profile-kicker { color:#7a8790; font-size:.68rem; margin-top:1.5rem; }
