@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a researcher working on software engineering and model post-training. My research focuses on code refactoring, software maintenance, and improving the capabilities of large language models through post-training.
+I received my B.S. degree from the School of Computer Science and Technology at Huazhong University of Science and Technology. I am currently pursuing a direct Ph.D. degree at the School of Computer Science, Peking University. My research interests include software engineering and model post-training, with a focus on code refactoring, software maintenance, and improving the capabilities of large language models through post-training.
 
 ## News
 
