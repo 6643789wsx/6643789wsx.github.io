@@ -3,22 +3,22 @@
   align-items: center;}
 
 .social-icons a{
-  display:inline-block;
-  height:2.4rem;
-  width:2.4rem;
-  background-color:transparent;
-  color:#043361!important;
-  border-radius:100%;
-  text-align:center;
-  font-size:1.15rem;
-  line-height:2.5rem;
-  margin-right:1rem}
+  align-items:center;
+  border:1px solid #d6ddd7;
+  border-radius:50%;
+  color:#164a43!important;
+  display:inline-flex;
+  font-size:1.05rem;
+  height:2.25rem;
+  justify-content:center;
+  margin-right:.35rem;
+  transition:background-color .2s ease, color .2s ease, transform .2s ease;
+  width:2.25rem;
+}
 
-@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
-
-.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
-    color:black;
-    transform: scale(1.2)}
+.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#164a43;
+    color:#fff!important;
+    transform:translateY(-2px)}
     /*
     .social-icons a:after {
         content: '';
@@ -138,7 +138,7 @@ email {
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
 autocolor{
-  color:#595959;
+  color:#4c5d57;
 }
 
 lightonly {
@@ -229,22 +229,26 @@ papertitle {
     }
 
 h3, h4, h5, h6 {
-  font-weight: 600;
-  color:#043361;
-  margin:0 0 20px;
+  color:#164a43;
+  font-weight:600;
+  margin:0 0 14px;
 }
 
 h1 {
-  font-weight: 500;
-  color:#043361;
-  margin:0 0 20px;
+  color:#133d37;
+  font-size:2.35rem;
+  font-weight:600;
+  letter-spacing:0;
+  margin:0 0 10px;
 }
 
 h2 {
-  color:#043361;
-  font-weight: 500;
-  margin:2px 0px 15px;
-  font-size: 157%;
+  border-bottom:1px solid #dce5dd;
+  color:#164a43;
+  font-size:1.45rem;
+  font-weight:600;
+  margin:2.8rem 0 1.1rem;
+  padding-bottom:.55rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -258,7 +262,7 @@ h2 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  margin:0 0 18px;
 }
 
 h1, h2, h3 {
@@ -270,12 +274,12 @@ h1 {
 }
 
 a {
-  color:#39c;
+  color:#126c60;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#0a4a42;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -295,9 +299,13 @@ a:hover small {
   color:#777;
 }
 
-.wrapper {
-  width:960px;
+.site-shell {
+  display:grid;
+  gap:5rem;
+  grid-template-columns:250px minmax(0, 680px);
   margin:0 auto;
+  max-width:1060px;
+  padding:5.5rem 2.5rem 4rem;
 }
 
 blockquote {
@@ -355,14 +363,42 @@ img {
   max-width:100%;
 }
 
-header {
-  width:232px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-  padding-top:4.0em;
-  text-align:center
+.profile-panel {
+  align-self:start;
+  background:#164a43;
+  box-sizing:border-box;
+  color:#edf4ec;
+  min-height:calc(100vh - 6rem);
+  padding:2.75rem 2.15rem;
+  position:sticky;
+  text-align:left;
+  top:3rem;
 }
+
+.profile-panel:before {
+  background:#d7864d;
+  content:"";
+  display:block;
+  height:4px;
+  margin-bottom:2rem;
+  width:3.5rem;
+}
+
+.profile-kicker {
+  color:#d9b78f;
+  font-family:"Ubuntu Mono", monospace;
+  font-size:.72rem;
+  letter-spacing:.08em;
+  margin:0 0 .85rem;
+  text-transform:uppercase;
+}
+
+.profile-panel h1 { color:#fffdf7; line-height:1; }
+.profile-panel position { color:#dce9df; display:block; font-size:1rem!important; }
+.profile-panel autocolor, .profile-panel email { color:#dce9df; }
+.profile-nav { border-bottom:1px solid rgba(255,255,255,.22); border-top:1px solid rgba(255,255,255,.22); display:grid; gap:.35rem; margin:2.2rem 0 1.4rem; padding:1rem 0; }
+.profile-nav a { color:#fffdf7; font-family:"Ubuntu Mono", monospace; font-size:.75rem; letter-spacing:.05em; text-transform:uppercase; }
+.profile-nav a:before { color:#d7864d; content:"/ "; }
 
 
 
@@ -431,12 +467,32 @@ header ul a strong {
   color:#222;
 }
 
-section {
-  width:650px;
-  float:right;
-  padding-top:4.0em;
-  padding-bottom:50px;
+.content-panel {
+  animation:content-enter .55s ease-out both;
+  min-width:0;
+  padding-bottom:2rem;
 }
+
+@keyframes content-enter { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+
+.content-panel > h2:first-child { margin-top:.2rem; }
+.content-panel > p:first-of-type { color:#263b35; font-size:1.3rem; line-height:1.55; max-width:37rem; }
+.content-panel > ul { border-left:2px solid #d7864d; list-style:none; padding-left:1.2rem; }
+.content-panel > ul strong { color:#164a43; font-family:"Ubuntu Mono", monospace; font-size:.8rem; }
+
+.publications { margin-top:1.4rem; }
+.publications ol.bibliography { list-style:none; margin:0; padding:0; }
+.publications ol.bibliography li { margin:0 0 1.1rem; min-height:0; }
+.publications ol.bibliography li > br { display:none; }
+.pub-row { align-items:flex-start; background:#fff; border:1px solid #dce5dd; border-left:4px solid #d7864d; box-shadow:0 10px 25px rgba(22,74,67,.06); box-sizing:border-box; padding:1.25rem 1.15rem; transition:box-shadow .2s ease, transform .2s ease; }
+.pub-row:hover { box-shadow:0 14px 28px rgba(22,74,67,.12); transform:translateY(-2px); }
+.publications ol.bibliography li .abbr { flex:0 0 4.8rem; height:auto; margin:0; padding:0!important; }
+.publications ol.bibliography li .abbr abbr { background:#e8efe9; box-shadow:none; color:#164a43!important; font-family:"Ubuntu Mono", monospace; font-size:.7rem; left:auto; padding:.35rem .45rem; position:static; top:auto; }
+.publications ol.bibliography li .col-sm-9 { padding:0!important; }
+.publications ol.bibliography li .title { font-size:1.13rem; font-weight:600; line-height:1.25; margin-bottom:.35rem; }
+.publications ol.bibliography li .author, .publications ol.bibliography li .periodical { font-size:.94rem; }
+.publications ol.bibliography li .links { margin-top:.65rem; }
+.publications ol.bibliography li .links a.btn { border:0; border-bottom:1px solid #126c60; color:#126c60; font-family:"Ubuntu Mono", monospace; font-size:.7rem!important; padding:0; }
 
 small {
   font-size:11px;
@@ -450,12 +506,7 @@ hr {
 }
 
 footer {
-  width:232px;
-  float:left;
-  position:fixed;
-  bottom:30px;
-  -webkit-font-smoothing:subpixel-antialiased;
-  text-align:center;
+  display:none;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -464,38 +515,28 @@ footer {
   display: flex; 
   align-items: center;}
 
-  div.wrapper {
-    width:auto;
-    margin:0;
+  .site-shell {
+    display:block;
+    max-width:700px;
+    padding:2.5rem 1.5rem;
   }
 
 
-  header, section, footer {
-    float:none;
+  .profile-panel {
+    min-height:auto;
+    margin-bottom:3rem;
+    padding:2rem 1.6rem;
     position:static;
-    width:auto;
-  }
-
-  header {
-    padding-right:320px;
-  }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
   }
 
   header a small {
     display:inline;
   }
 
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
+  header ul { position:static; }
+
+  .pub-row { display:block; }
+  .publications ol.bibliography li .abbr { margin-bottom:.8rem; }
 
 
    .image.avatar img {
