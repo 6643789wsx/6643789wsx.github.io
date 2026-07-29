@@ -13,12 +13,7 @@
   justify-content:center;
   margin-right:.35rem;
   transition:background-color .2s ease, color .2s ease, transform .2s ease;
-  width:2.25rem;
 }
-
-.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#164a43;
-    color:#fff!important;
-    transform:translateY(-2px)}
     /*
     .social-icons a:after {
         content: '';
@@ -33,7 +28,7 @@
         width: 100%;
         background: #337ab7;
       }
-     */
+    */
 
 @media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
     color:black;
@@ -628,7 +623,7 @@ body { background:#fafbf8; color:#4b5560; }
 .top-nav-links a:hover, .top-nav-brand:hover { color:#176f9c; }
 .site-shell { gap:4rem; grid-template-columns:235px minmax(0, 760px); max-width:1080px; padding:3rem 2.5rem 4rem; }
 .profile-panel { background:transparent; border-right:1px solid #e1e6e0; color:#59646a; min-height:auto; padding:1.5rem 2rem 1.5rem 0; position:static; }
-.profile-panel:before { background:#e98d52; height:3px; margin-bottom:1.8rem; width:3.2rem; }
+.profile-panel:before { display:none; }
 .image.avatar img { background:#fff; border:1px solid #e2e8e3; padding:.45rem; width:132px; }
 .profile-kicker { color:#7a8790; font-size:.68rem; margin-top:1.5rem; }
 .profile-panel h1 { color:#344651; font-size:1.65rem; }
