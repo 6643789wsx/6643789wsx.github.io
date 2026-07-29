@@ -477,7 +477,7 @@ header ul a strong {
 
 .content-panel > h2:first-child { margin-top:.2rem; }
 .content-panel > p:first-of-type { color:#263b35; font-size:1.3rem; line-height:1.55; max-width:37rem; }
-.content-panel > ul { border-left:2px solid #d7864d; list-style:none; padding-left:1.2rem; }
+.content-panel > ul { list-style:disc; padding-left:1.25rem; }
 .content-panel > ul strong { color:#164a43; font-family:"Ubuntu Mono", monospace; font-size:.8rem; }
 
 .publications { margin-top:1.4rem; }
@@ -642,7 +642,6 @@ body { background:#fafbf8; color:#4b5560; }
 h2 { border-bottom-color:#e1e6e0; color:#344651; font-size:1.38rem; margin-top:2.2rem; }
 a, .publications ol.bibliography li .links a.btn { color:#176f9c; }
 a:hover { color:#125878; }
-.content-panel > ul { border-left-color:#e98d52; }
 .content-panel > ul strong { color:#58656e; }
 .pub-row { background:#fff; border:0; border-bottom:1px solid #e5e9e5; border-left:3px solid #e98d52; box-shadow:none; padding:.7rem 1rem; }
 .pub-row:hover { box-shadow:0 8px 18px rgba(45,69,60,.08); }
