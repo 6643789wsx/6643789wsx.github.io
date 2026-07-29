@@ -649,6 +649,13 @@ a:hover { color:#125878; }
 .publications ol.bibliography li .abbr { height:auto!important; }
 .publications ol.bibliography li .abbr abbr { background:#e6f2f6; color:#176f9c!important; }
 .publications ol.bibliography li .title { font-size:1.06rem; }
+.publication-list { list-style:disc; margin:0; padding-left:1.25rem; }
+.publication-list li { margin:0 0 1rem; padding-left:.2rem; }
+.publication-entry { line-height:1.45; }
+.publication-title { font-weight:600; }
+.publication-authors, .publication-venue { display:block; font-size:.94rem; }
+.publication-links { font-family:"Ubuntu Mono", monospace; font-size:.75rem; margin-left:.35rem; }
+.publication-links a { margin-right:.35rem; }
 
 @media (prefers-color-scheme: dark) {
   body { background:#fafbf8; color:#4b5560; }
