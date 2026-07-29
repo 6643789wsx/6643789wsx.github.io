@@ -36,6 +36,17 @@
 
   </head>
   <body>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <div class="top-nav-inner">
+        <a class="top-nav-brand" href="#about-me">{{ site.title }}</a>
+        <div class="top-nav-links">
+          <a href="#about-me">Homepage</a>
+          <a href="#about-me">About Me</a>
+          <a href="#publications">Publications</a>
+          <a href="#news">News</a>
+        </div>
+      </div>
+    </nav>
     <div class="site-shell">
       <header class="profile-panel">
         
@@ -58,11 +69,6 @@
         <email>{{ site.email }}</email>
         {% endif %}
 
-        <nav class="profile-nav" aria-label="Page sections">
-          <a href="#about-me">About</a>
-          <a href="#news">News</a>
-          <a href="#publications">Work</a>
-        </nav>
         <div class="social-icons">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
