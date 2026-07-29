@@ -12,8 +12,10 @@ canonical: https://6643789wsx.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=gxDzdlMAAAAJ
+google_scholar: https://scholar.google.com/citations?user=gxDzdlMAAAAJ&hl=zh-CN
 github_link: https://github.com/6643789wsx
+dblp: https://dblp.org/pid/380/6079
+orcid: https://orcid.org/0009-0003-8699-8229
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 

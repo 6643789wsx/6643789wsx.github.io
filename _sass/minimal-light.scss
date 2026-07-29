@@ -633,9 +633,10 @@ body { background:#fafbf8; color:#4b5560; }
 .profile-kicker { color:#7a8790; font-size:.68rem; margin-top:1.5rem; }
 .profile-panel h1 { color:#344651; font-size:1.65rem; }
 .profile-panel position, .profile-panel autocolor, .profile-panel email { color:#6e7a80; }
-.social-icons { border-top:1px solid #e1e6e0; margin-top:1.7rem; padding-top:1.2rem; }
-.social-icons a { border-color:#cfdad3; color:#526f65!important; }
-.social-icons a:hover { background:#176f9c; border-color:#176f9c; }
+.profile-links { border-top:1px solid #e1e6e0; display:grid; gap:.65rem; margin-top:1.7rem; padding-top:1.2rem; }
+.profile-links a { color:#5b6871; font-family:"Ubuntu Mono", monospace; font-size:.78rem; }
+.profile-links a:hover { color:#176f9c; }
+.profile-links i { color:#176f9c; margin-right:.4rem; width:1rem; }
 .content-panel { padding-top:.5rem; }
 .content-panel > p:first-of-type { color:#53616b; font-size:1.12rem; max-width:45rem; }
 h2 { border-bottom-color:#e1e6e0; color:#344651; font-size:1.38rem; margin-top:2.2rem; }
