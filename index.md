@@ -11,3 +11,7 @@ I received my B.S. degree from the School of Computer Science and Technology at 
 - **[Oct. 2025]** Started my internship at ByteDance's Trae department.
 
 {% include_relative _includes/publications.md %}
+
+## Experiences
+
+- *2025.10 - 2026.04*, [Trae](https://www.trae.ai/) Research, ByteDance, China. Conducted research on model post-training.
