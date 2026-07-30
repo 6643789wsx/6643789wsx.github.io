@@ -9,7 +9,7 @@
   <div class="publication-entry">
     <a class="publication-title" href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.title }}</a>
     <span class="publication-authors">{{ link.authors }}</span>
-    <span class="publication-venue"><em>{{ link.conference }}</em></span>
+    <span class="publication-venue"><em>{{ link.conference }}</em>{% if link.ccf_rank %} <span class="ccf-rank">CCF {{ link.ccf_rank }}</span>{% endif %}</span>
     <span class="publication-links">
       {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank" rel="noopener">[PDF]</a>{% endif %}
       {% if link.code %}<a href="{{ link.code }}" target="_blank" rel="noopener">[Code]</a>{% endif %}

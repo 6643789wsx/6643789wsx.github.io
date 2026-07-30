@@ -3,6 +3,7 @@ main:
   - title: "HeaderSplit: An Automated Tool for Splitting Header Files in C Projects"
     authors: Yue Wang, Jiaxuan Sun, <strong>Tongwei Deng</strong>, Wenhui Chang, Yanzhen Zou, Bing Xie
     conference_short: FSE
+    ccf_rank: A
     conference: ACM International Conference on the Foundations of Software Engineering <strong>(FSE)</strong>, 2025.
     pdf: https://doi.org/10.1145/3696630.3728594
     bibtex: https://dblp.org/rec/conf/sigsoft/WangSDCZX25.bib
@@ -10,6 +11,7 @@ main:
   - title: "Decomposing God Header File via Multi-View Graph Clustering"
     authors: Yue Wang, Wenhui Chang, <strong>Tongwei Deng</strong>, Yanzhen Zou, Bing Xie
     conference_short: ICSME
+    ccf_rank: B
     conference: IEEE International Conference on Software Maintenance and Evolution <strong>(ICSME)</strong>, 2024.
     pdf: https://doi.org/10.1109/ICSME58944.2024.00021
     bibtex: https://dblp.org/rec/conf/icsm/WangCDZX24.bib
