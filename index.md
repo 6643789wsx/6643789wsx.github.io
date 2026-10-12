@@ -19,3 +19,5 @@ My research focuses on software engineering, with particular interests in code r
 ## Experiences
 
 - *2025.10 - 2026.04*, [Trae](https://www.trae.ai/) Research, ByteDance, China. Contributed to training data synthesis and post-training for the Doubao-Seed-Code model.
+
+{% include_relative _includes/services.md %}
