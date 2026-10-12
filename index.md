@@ -12,12 +12,12 @@ My research focuses on software engineering, with particular interests in code r
 
 ## News
 
-- **[Oct. 2025]** Started my internship at ByteDance's Trae department.
+- **[Sep. 2025]** Started my internship at ByteDance's Trae department.
 
 {% include_relative _includes/publications.md %}
 
 ## Experiences
 
-- *2025.10 - 2026.04*, [Trae](https://www.trae.ai/) Research, ByteDance, China. Contributed to training data synthesis and post-training for the Doubao-Seed-Code model.
+- *2025.09 - 2026.04*, [Trae](https://www.trae.ai/) Research, ByteDance, China. Contributed to training data synthesis and post-training for the Doubao-Seed-Code model.
 
 {% include_relative _includes/services.md %}
