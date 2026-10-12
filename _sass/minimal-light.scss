@@ -389,7 +389,6 @@ img {
 }
 
 .profile-panel h1 { color:#fffdf7; line-height:1; }
-.name-zh { color:#dce9df; display:block; font-size:.68em; font-weight:400; letter-spacing:.35em; margin:.55rem 0 0; }
 .profile-panel position { color:#dce9df; display:block; font-size:1rem!important; }
 .profile-panel autocolor, .profile-panel email { color:#dce9df; }
 .profile-nav { border-bottom:1px solid rgba(255,255,255,.22); border-top:1px solid rgba(255,255,255,.22); display:grid; gap:.35rem; margin:2.2rem 0 1.4rem; padding:1rem 0; }
@@ -628,7 +627,6 @@ body { background:#fafbf8; color:#4b5560; }
 .image.avatar img { background:#fff; border:1px solid #e2e8e3; padding:.45rem; width:132px; }
 .profile-kicker { color:#7a8790; font-size:.68rem; margin-top:1.5rem; }
 .profile-panel h1 { color:#344651; font-size:1.65rem; }
-.name-zh { color:#6e7a80; }
 .profile-panel position, .profile-panel autocolor, .profile-panel email { color:#6e7a80; }
 .profile-links { border-top:1px solid #e1e6e0; display:grid; gap:.65rem; margin-top:1.7rem; padding-top:1.2rem; }
 .profile-links a { color:#5b6871; font-family:"Ubuntu Mono", monospace; font-size:.78rem; }
@@ -660,7 +658,6 @@ a:hover { color:#125878; }
   a { color:#176f9c; }
   autocolor { color:#6e7a80; }
   .profile-panel h1 { color:#344651; }
-  .name-zh { color:#6e7a80; }
   .profile-panel position, .profile-panel autocolor, .profile-panel email { color:#6e7a80; }
   .social-icons a:hover { background:#176f9c; color:#fff!important; transform:translateY(-2px); }
 }
