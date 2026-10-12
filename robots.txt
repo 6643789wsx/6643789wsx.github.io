@@ -1,0 +1,6 @@
+---
+---
+User-agent: *
+Allow: /
+
+Sitemap: https://6643789wsx.github.io/sitemap.xml

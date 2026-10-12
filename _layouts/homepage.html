@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} | {{site.affiliation}}</title>
+    <title>{{ site.title }}{% if site.title_zh %} ({{ site.title_zh }}){% endif %}{% if site.affiliation %} | {{ site.affiliation }}{% endif %}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,7 +55,7 @@
         {% endif %}
 
         <p class="profile-kicker">Academic profile</p>
-        <h1>{{ site.title }}</h1>
+        <h1>{{ site.title }}{% if site.title_zh %} <span class="name-zh" lang="zh-Hans">{{ site.title_zh }}</span>{% endif %}</h1>
 
         {% if site.position %}
         <position style="font-size:1.10rem;">{{ site.position }}</position>
