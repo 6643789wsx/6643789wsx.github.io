@@ -613,60 +613,123 @@ footer {
   }
 }
 
-/* Light academic profile layout, kept consistent when the OS uses dark mode. */
-body { background:#fafbf8; color:#4b5560; }
-.top-nav { background:#fff; border-bottom:1px solid #e6e9e4; position:sticky; top:0; z-index:20; }
+/* Light academic profile layout. Colors are defined as variables so the
+   dark mode can be toggled manually via html[data-theme="dark"]. */
+:root {
+  color-scheme: light;
+  --page-bg:#fafbf8;
+  --text:#4b5560;
+  --text-soft:#59646a;
+  --heading:#344651;
+  --link:#176f9c;
+  --link-hover:#125878;
+  --muted:#6e7a80;
+  --strong:#58656e;
+  --brand:#273f4f;
+  --nav-link:#66727a;
+  --nav-bg:#ffffff;
+  --nav-border:#e6e9e4;
+  --border:#e1e6e0;
+  --card-bg:#ffffff;
+  --card-border:#e5e9e5;
+  --accent:#e98d52;
+  --badge-bg:#e6f2f6;
+  --avatar-bg:#ffffff;
+  --avatar-border:#e2e8e3;
+  --row-shadow:0 8px 18px rgba(45,69,60,.08);
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --page-bg:#151a21;
+  --text:#b7c1cb;
+  --text-soft:#a6b2bd;
+  --heading:#e7edf3;
+  --link:#6fb8ec;
+  --link-hover:#a3d2f2;
+  --muted:#8d9aa7;
+  --strong:#ccd6de;
+  --brand:#dce5ed;
+  --nav-link:#98a5b1;
+  --nav-bg:#10151c;
+  --nav-border:#242d38;
+  --border:#242d38;
+  --card-bg:#10151c;
+  --card-border:#242d38;
+  --accent:#f0a068;
+  --badge-bg:#1d2a37;
+  --avatar-bg:#10151c;
+  --avatar-border:#242d38;
+  --row-shadow:0 8px 18px rgba(0,0,0,.4);
+}
+
+body { background:var(--page-bg); color:var(--text); }
+.top-nav { background:var(--nav-bg); border-bottom:1px solid var(--nav-border); position:sticky; top:0; z-index:20; }
 .top-nav-inner { align-items:center; display:flex; justify-content:space-between; margin:0 auto; max-width:1180px; min-height:3.4rem; padding:0 2rem; }
-.top-nav-brand { color:#273f4f; font-family:"Ubuntu Mono", monospace; font-size:.82rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; }
-.top-nav-links { display:flex; gap:2rem; }
-.top-nav-links a { color:#66727a; font-family:"Ubuntu Mono", monospace; font-size:.77rem; }
-.top-nav-links a:hover, .top-nav-brand:hover { color:#176f9c; }
+.top-nav-brand { color:var(--brand); font-family:"Ubuntu Mono", monospace; font-size:.82rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; }
+.top-nav-links { align-items:center; display:flex; gap:2rem; }
+.top-nav-links a { color:var(--nav-link); font-family:"Ubuntu Mono", monospace; font-size:.77rem; }
+.top-nav-links a:hover, .top-nav-brand:hover { color:var(--link); }
 .site-shell { gap:4rem; grid-template-columns:235px minmax(0, 760px); max-width:1080px; padding:3rem 2.5rem 4rem; }
-.profile-panel { background:transparent; border-right:1px solid #e1e6e0; color:#59646a; min-height:auto; padding:1.5rem 2rem 1.5rem 0; position:static; }
+.profile-panel { background:transparent; border-right:1px solid var(--border); color:var(--text-soft); min-height:auto; padding:1.5rem 2rem 1.5rem 0; position:static; }
 .profile-panel:before { display:none; }
-.image.avatar img { background:#fff; border:1px solid #e2e8e3; padding:.45rem; width:132px; }
-.profile-kicker { color:#7a8790; font-size:.68rem; margin-top:1.5rem; }
-.profile-panel h1 { color:#344651; font-size:1.65rem; }
-.profile-panel position, .profile-panel autocolor, .profile-panel email { color:#6e7a80; }
-.profile-links { border-top:1px solid #e1e6e0; display:grid; gap:.65rem; margin-top:1.7rem; padding-top:1.2rem; }
-.profile-links a { color:#5b6871; font-family:"Ubuntu Mono", monospace; font-size:.78rem; }
-.profile-links a:hover { color:#176f9c; }
-.profile-links i { color:#176f9c; margin-right:.4rem; width:1rem; }
+.image.avatar img { background:var(--avatar-bg); border:1px solid var(--avatar-border); padding:.45rem; width:132px; }
+.profile-kicker { color:var(--muted); font-size:.68rem; margin-top:1.5rem; }
+.profile-panel h1 { color:var(--heading); font-size:1.65rem; }
+.profile-panel position, .profile-panel autocolor, .profile-panel email { color:var(--muted); }
+.profile-links { border-top:1px solid var(--border); display:grid; gap:.65rem; margin-top:1.7rem; padding-top:1.2rem; }
+.profile-links a { color:var(--text-soft); font-family:"Ubuntu Mono", monospace; font-size:.78rem; }
+.profile-links a:hover { color:var(--link); }
+.profile-links i { color:var(--link); margin-right:.4rem; width:1rem; }
 .content-panel { padding-top:.5rem; }
-.content-panel > p:first-of-type { color:#53616b; font-size:1.12rem; max-width:45rem; }
-h2 { border-bottom-color:#e1e6e0; color:#344651; font-size:1.38rem; margin-top:2.2rem; }
-a, .publications ol.bibliography li .links a.btn { color:#176f9c; }
-a:hover { color:#125878; }
-.content-panel > ul strong { color:#58656e; }
-.pub-row { background:#fff; border:0; border-bottom:1px solid #e5e9e5; border-left:3px solid #e98d52; box-shadow:none; padding:.7rem 1rem; }
-.pub-row:hover { box-shadow:0 8px 18px rgba(45,69,60,.08); }
+.content-panel > p:first-of-type { color:var(--text-soft); font-size:1.12rem; max-width:45rem; }
+h2 { border-bottom-color:var(--border); color:var(--heading); font-size:1.38rem; margin-top:2.2rem; }
+a, .publications ol.bibliography li .links a.btn { color:var(--link); }
+a:hover { color:var(--link-hover); }
+strong { color:var(--heading); }
+autocolor { color:var(--muted); }
+.content-panel > ul strong { color:var(--strong); }
+.pub-row { background:var(--card-bg); border:0; border-bottom:1px solid var(--card-border); border-left:3px solid var(--accent); box-shadow:none; padding:.7rem 1rem; }
+.pub-row:hover { box-shadow:var(--row-shadow); }
 .publications ol.bibliography li .abbr { height:auto!important; }
-.publications ol.bibliography li .abbr abbr { background:#e6f2f6; color:#176f9c!important; }
+.publications ol.bibliography li .abbr abbr { background:var(--badge-bg); color:var(--link)!important; }
 .publications ol.bibliography li .title { font-size:1.06rem; }
 .publication-list { list-style:disc; margin:0; padding-left:1.25rem; }
 .publication-list li { margin:0 0 1rem; padding-left:.2rem; }
 .publication-entry { line-height:1.45; }
 .publication-title { font-weight:600; }
 .publication-authors, .publication-venue { display:block; font-size:.94rem; }
-.ccf-rank { background:#e6f2f6; color:#176f9c; font-family:"Ubuntu Mono", monospace; font-size:.72rem; font-style:normal; font-weight:700; margin-left:.35rem; padding:.08rem .32rem; }
+.ccf-rank { background:var(--badge-bg); color:var(--link); font-family:"Ubuntu Mono", monospace; font-size:.72rem; font-style:normal; font-weight:700; margin-left:.35rem; padding:.08rem .32rem; }
 .publication-links { font-family:"Ubuntu Mono", monospace; font-size:.75rem; margin-left:.35rem; }
 .publication-links a { margin-right:.35rem; }
+pre { background:var(--card-bg); border:1px solid var(--border); }
+code, pre { color:var(--text); }
+blockquote { border-left:1px solid var(--border); }
+hr { background:var(--border); }
 
-@media (prefers-color-scheme: dark) {
-  body { background:#fafbf8; color:#4b5560; }
-  h1, h2, h3, h4, h5, h6, strong { color:#344651; }
-  a { color:#176f9c; }
-  autocolor { color:#6e7a80; }
-  .profile-panel h1 { color:#344651; }
-  .profile-panel position, .profile-panel autocolor, .profile-panel email { color:#6e7a80; }
-  .social-icons a:hover { background:#176f9c; color:#fff!important; transform:translateY(-2px); }
+.theme-toggle {
+  align-self:center;
+  background:transparent;
+  border:1px solid var(--border);
+  border-radius:50%;
+  color:var(--nav-link);
+  cursor:pointer;
+  flex:0 0 auto;
+  font-size:.85rem;
+  height:2.1rem;
+  line-height:1;
+  padding:0;
+  transition:color .2s ease, border-color .2s ease, transform .2s ease;
+  width:2.1rem;
 }
+.theme-toggle:hover { border-color:var(--link); color:var(--link); transform:rotate(20deg); }
+.theme-toggle:focus-visible { outline:2px solid var(--link); outline-offset:2px; }
 
 @media print, screen and (max-width: 720px) {
   .top-nav-inner { align-items:flex-start; flex-direction:column; gap:.7rem; padding:1rem 1.25rem; }
   .top-nav-links { flex-wrap:wrap; gap:.7rem 1.25rem; }
   .site-shell { padding:2rem 1.25rem 3rem; }
-  .profile-panel { border-bottom:1px solid #e1e6e0; border-right:0; padding:0 0 1.7rem; }
+  .profile-panel { border-bottom:1px solid var(--border); border-right:0; padding:0 0 1.7rem; }
 }
 
 .biblink {
