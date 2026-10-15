@@ -12,6 +12,7 @@ My research focuses on software engineering, with particular interests in code r
 
 ## News
 
+- **[Oct. 2026]** Our paper [LintEval](https://arxiv.org/abs/2610.20027) was accepted to Findings of EMNLP 2026.
 - **[Sep. 2025]** Started my internship at ByteDance's Trae department.
 
 {% include_relative _includes/publications.md %}
