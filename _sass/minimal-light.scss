@@ -676,6 +676,7 @@ body { background:var(--page-bg); color:var(--text); }
 .image.avatar img { background:var(--avatar-bg); border:1px solid var(--avatar-border); padding:.45rem; width:132px; }
 .profile-kicker { color:var(--muted); font-size:.68rem; margin-top:1.5rem; }
 .profile-panel h1 { color:var(--heading); font-size:1.65rem; }
+.profile-panel h1 .name-zh { white-space:nowrap; }
 .profile-panel position, .profile-panel autocolor, .profile-panel email { color:var(--muted); }
 .profile-links { border-top:1px solid var(--border); display:grid; gap:.65rem; margin-top:1.7rem; padding-top:1.2rem; }
 .profile-links a { color:var(--text-soft); font-family:"Ubuntu Mono", monospace; font-size:.78rem; }

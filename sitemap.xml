@@ -4,7 +4,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{ site.canonical }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    {% if site.homepage_last_modified %}<lastmod>{{ site.homepage_last_modified | date_to_xmlschema }}</lastmod>{% endif %}
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

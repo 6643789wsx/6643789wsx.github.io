@@ -10,6 +10,9 @@ email: dtw@stu.pku.edu.cn
 keywords: "Tongwei Deng, 邓同蔚, Peking University, software engineering"
 description: "Tongwei Deng (邓同蔚) is a Ph.D. student at Peking University researching software engineering, code refactoring, and model post-training. 邓同蔚的学术主页。"
 canonical: https://6643789wsx.github.io/
+# Date the homepage content was last actually edited (YYYY-MM-DD), used for sitemap lastmod.
+# Update this whenever index.md or the profile/layout content changes.
+homepage_last_modified: 2026-10-18
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.

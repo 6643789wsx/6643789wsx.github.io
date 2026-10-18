@@ -68,7 +68,7 @@
         {% endif %}
 
         <p class="profile-kicker">Academic profile</p>
-        <h1>{{ site.title }}</h1>
+        <h1>{{ site.title }}{% if site.title_zh %} <span class="name-zh" lang="zh-CN">({{ site.title_zh }})</span>{% endif %}</h1>
 
         {% if site.position %}
         <position style="font-size:1.10rem;">{{ site.position }}</position>
