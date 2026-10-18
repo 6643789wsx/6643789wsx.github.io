@@ -17,12 +17,13 @@
       })();
     </script>
     <meta name="description" content="{{ site.description }}">
-    {% if page.last_modified_at %}
+    {% if site.homepage_last_modified %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "dateModified": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
+      "url": "{{ site.canonical }}",
+      "dateModified": "{{ site.homepage_last_modified | date: '%Y-%m-%d' }}"
     }
     </script>
     {% endif %}
