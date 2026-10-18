@@ -68,11 +68,13 @@
         {% endif %}
 
         <p class="profile-kicker">Academic profile</p>
-        <h1>{{ site.title }}{% if site.title_zh %} <span class="name-zh" lang="zh-CN">({{ site.title_zh }})</span>{% endif %}</h1>
+        <h1>
+          <span class="name-en">{{ site.title }}</span>
+          {% if site.title_zh %}<span class="name-zh" lang="zh-CN">{{ site.title_zh }}</span>{% endif %}
+        </h1>
 
         {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
+        <position>{{ site.position }}</position>
         {% endif %}
         {% if site.affiliation %}
         <a class="profile-affiliation" href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>

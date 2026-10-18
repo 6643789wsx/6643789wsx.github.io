@@ -5,7 +5,5 @@
   <url>
     <loc>{{ site.canonical }}</loc>
     {% if site.homepage_last_modified %}<lastmod>{{ site.homepage_last_modified | date_to_xmlschema }}</lastmod>{% endif %}
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
   </url>
 </urlset>

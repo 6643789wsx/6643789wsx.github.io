@@ -676,7 +676,6 @@ body { background:var(--page-bg); color:var(--text); }
 .image.avatar img { background:var(--avatar-bg); border:1px solid var(--avatar-border); padding:.45rem; width:132px; }
 .profile-kicker { color:var(--muted); font-size:.68rem; margin-top:1.5rem; }
 .profile-panel h1 { color:var(--heading); font-size:1.65rem; }
-.profile-panel h1 .name-zh { white-space:nowrap; }
 .profile-panel position, .profile-panel autocolor, .profile-panel email { color:var(--muted); }
 .profile-links { border-top:1px solid var(--border); display:grid; gap:.65rem; margin-top:1.7rem; padding-top:1.2rem; }
 .profile-links a { color:var(--text-soft); font-family:"Ubuntu Mono", monospace; font-size:.78rem; }
@@ -750,4 +749,28 @@ hr { background:var(--border); }
   margin-left: 0px;
   display:none;
   font-family: monospace;
+}
+
+/* Bilingual name layout */
+.profile-panel h1 {
+  line-height: 1.25;
+  margin: 0 0 1.35rem;
+}
+.profile-panel h1 .name-en {
+  display: block;
+  white-space: nowrap;
+}
+.profile-panel h1 .name-zh {
+  display: block;
+  margin-top: .52rem;
+  font-size: 1.14rem;
+  font-weight: 500;
+  letter-spacing: .07em;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.profile-panel position {
+  display: block;
+  margin-bottom: 1.1rem;
+  line-height: 1.45;
 }
