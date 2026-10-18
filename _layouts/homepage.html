@@ -17,6 +17,15 @@
       })();
     </script>
     <meta name="description" content="{{ site.description }}">
+    {% if page.last_modified_at %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "dateModified": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
+    }
+    </script>
+    {% endif %}
     {% if site.keywords %}
     <meta name="keywords" content="{{ site.keywords }}">
     {% endif %}
