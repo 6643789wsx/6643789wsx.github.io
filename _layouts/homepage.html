@@ -1,6 +1,7 @@
 {% assign lang_code = 'en' %}{% if page.lang == 'zh' %}{% assign lang_code = 'zh' %}{% endif %}
 {% assign t = site.data.i18n[lang_code] %}
 {% assign display_name = site.title %}{% if lang_code == 'zh' %}{% assign display_name = site.title_zh %}{% endif %}
+{% assign display_position = site.position %}{% if lang_code == 'zh' and site.position_zh %}{% assign display_position = site.position_zh %}{% endif %}
 {% assign en_url = site.canonical %}
 {% assign zh_url = site.canonical | append: 'zh/' %}
 {% if lang_code == 'zh' %}{% assign page_url = zh_url %}{% assign other_url = '/' %}{% assign other_lang_code = 'en' %}{% else %}{% assign page_url = en_url %}{% assign other_url = '/zh/' %}{% assign other_lang_code = 'zh' %}{% endif %}
@@ -92,8 +93,8 @@
         <p class="profile-kicker">{{ t.kicker }}</p>
         <h1>{{ display_name }}</h1>
 
-        {% if site.position %}
-        <position>{{ site.position }}</position>
+        {% if display_position %}
+        <position>{{ display_position }}</position>
         {% endif %}
         {% if site.affiliation %}
         <a class="profile-affiliation" href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
