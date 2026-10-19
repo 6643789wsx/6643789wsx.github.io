@@ -4,6 +4,7 @@ en:
   publications: Publications
   experiences: Experiences
   services: Services
+  reviewers: Conference Reviewers
   kicker: Academic profile
   switch: CN
   switch_title: Switch to Chinese
@@ -15,6 +16,7 @@ zh:
   publications: 论文
   experiences: 经历
   services: 学术服务
+  reviewers: 会议审稿
   kicker: 学术主页
   switch: EN
   switch_title: 切换到英文
