@@ -1,4 +1,6 @@
 _site
+sites-dist
+*.qoder.site
 .sass-cache
 Gemfile.lock
 *.gem
