@@ -3,14 +3,20 @@ en:
   news: News
   publications: Publications
   experiences: Experiences
+  services: Services
   kicker: Academic profile
   switch: CN
-  switch_title: 切换到中文
+  switch_title: Switch to Chinese
+  theme_toggle: Toggle dark / light mode
+  footnote: 'Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.'
 zh:
   about: 关于我
   news: 新闻
-  publications: Publications
-  experiences: Experiences
+  publications: 论文
+  experiences: 经历
+  services: 学术服务
   kicker: 学术主页
   switch: EN
-  switch_title: Switch to English
+  switch_title: 切换到英文
+  theme_toggle: 切换深色 / 浅色模式
+  footnote: '本站使用 Jekyll 与 <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> 主题搭建。'

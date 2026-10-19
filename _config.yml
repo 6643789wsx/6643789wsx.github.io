@@ -7,10 +7,10 @@ email: dtw@stu.pku.edu.cn
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: "Tongwei Deng, 邓同蔚, Peking University, software engineering"
-keywords_zh: "邓同蔚, Tongwei Deng, 北京大学, 软件工程, 代码重构"
-description: "Tongwei Deng (邓同蔚) is a Ph.D. student at Peking University researching software engineering, code refactoring, and model post-training. 邓同蔚的学术主页。"
-description_zh: "邓同蔚（Tongwei Deng），北京大学计算机学院直博生，研究软件工程，关注代码重构、软件维护与模型后训练。"
+keywords: "Tongwei Deng, Peking University, software engineering"
+keywords_zh: "邓同蔚, 北京大学, 软件工程, 代码重构"
+description: "Tongwei Deng is a Ph.D. student at Peking University researching software engineering, code refactoring, and model post-training."
+description_zh: "邓同蔚，北京大学计算机学院直博生，研究软件工程，关注代码重构、软件维护与模型后训练。"
 canonical: https://6643789wsx.github.io/
 # Date the homepage content was last actually edited (YYYY-MM-DD), used for sitemap lastmod.
 # Update this whenever index.md or the profile/layout content changes.

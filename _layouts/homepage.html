@@ -1,12 +1,13 @@
 {% assign lang_code = 'en' %}{% if page.lang == 'zh' %}{% assign lang_code = 'zh' %}{% endif %}
 {% assign t = site.data.i18n[lang_code] %}
+{% assign display_name = site.title %}{% if lang_code == 'zh' %}{% assign display_name = site.title_zh %}{% endif %}
 {% assign en_url = site.canonical %}
 {% assign zh_url = site.canonical | append: 'zh/' %}
 {% if lang_code == 'zh' %}{% assign page_url = zh_url %}{% assign other_url = '/' %}{% assign other_lang_code = 'en' %}{% else %}{% assign page_url = en_url %}{% assign other_url = '/zh/' %}{% assign other_lang_code = 'zh' %}{% endif %}
 <!DOCTYPE html>
 <html lang="{% if lang_code == 'zh' %}zh-CN{% else %}{{ site.lang | default: "en-US" }}{% endif %}">
   <head>
-    <title>{% if lang_code == 'zh' %}{{ site.title_zh }} ({{ site.title }}){% else %}{{ site.title }}{% if site.title_zh %} ({{ site.title_zh }}){% endif %}{% endif %}{% if site.affiliation %} | {{ site.affiliation }}{% endif %}</title>
+    <title>{{ display_name }}{% if site.affiliation %} | {{ site.affiliation }}{% endif %}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,14 +69,14 @@
   <body>
     <nav class="top-nav" aria-label="Primary navigation">
       <div class="top-nav-inner">
-        <a class="top-nav-brand" href="#about-me">{{ site.title }}</a>
+        <a class="top-nav-brand" href="#about-me">{{ display_name }}</a>
         <div class="top-nav-links">
           <a href="#about-me">{{ t.about }}</a>
           <a href="#news">{{ t.news }}</a>
           <a href="#publications">{{ t.publications }}</a>
           <a href="#experiences">{{ t.experiences }}</a>
           <a class="lang-toggle" href="{{ other_url }}" hreflang="{{ other_lang_code }}" lang="{{ other_lang_code }}" title="{{ t.switch_title }}" aria-label="{{ t.switch_title }}">{{ t.switch }}</a>
-          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark / light mode" title="切换深色 / 浅色模式">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="{{ t.theme_toggle }}" title="{{ t.theme_toggle }}">
             <i class="fa-solid fa-moon" id="theme-toggle-icon" aria-hidden="true"></i>
           </button>
         </div>
@@ -89,10 +90,7 @@
         {% endif %}
 
         <p class="profile-kicker">{{ t.kicker }}</p>
-        <h1>
-          <span class="name-en">{{ site.title }}</span>
-          {% if site.title_zh %}<span class="name-zh" lang="zh-CN">{{ site.title_zh }}</span>{% endif %}
-        </h1>
+        <h1>{{ display_name }}</h1>
 
         {% if site.position %}
         <position>{{ site.position }}</position>
@@ -129,7 +127,7 @@
       <br>
 
       {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      <p><small>{{ t.footnote }}</small></p>
       {% endif %}
 
       </main>

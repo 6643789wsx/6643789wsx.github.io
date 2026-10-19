@@ -5,7 +5,7 @@ lang: zh
 
 <h2 id="about-me">关于我</h2>
 
-我是邓同蔚（Tongwei Deng），本科毕业于[华中科技大学](https://www.hust.edu.cn/)[计算机学院](https://cs.hust.edu.cn/)，现为[北京大学](https://www.pku.edu.cn/)[计算机学院](https://cs.pku.edu.cn/)直博生。
+我是邓同蔚，本科毕业于[华中科技大学](https://www.hust.edu.cn/)[计算机学院](https://cs.hust.edu.cn/)，现为[北京大学](https://www.pku.edu.cn/)[计算机学院](https://cs.pku.edu.cn/)直博生。
 
 我的研究关注软件工程，尤其感兴趣的方向包括代码重构、软件维护与模型后训练。
 
