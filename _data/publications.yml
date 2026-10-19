@@ -7,7 +7,7 @@ main:
     pdf: https://arxiv.org/abs/2610.20027
     code: https://github.com/6643789wsx/LintEval
     dataset: https://huggingface.co/datasets/deepbreath7/LintEval
-    bibtex: assets/files/linteval.bib
+    bibtex: /assets/files/linteval.bib
 
   - title: "HeaderSplit: An Automated Tool for Splitting Header Files in C Projects"
     authors: Yue Wang, Jiaxuan Sun, <strong>Tongwei Deng</strong>, Wenhui Chang, Yanzhen Zou, Bing Xie

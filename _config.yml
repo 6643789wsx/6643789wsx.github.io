@@ -8,7 +8,9 @@ email: dtw@stu.pku.edu.cn
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: "Tongwei Deng, 邓同蔚, Peking University, software engineering"
+keywords_zh: "邓同蔚, Tongwei Deng, 北京大学, 软件工程, 代码重构"
 description: "Tongwei Deng (邓同蔚) is a Ph.D. student at Peking University researching software engineering, code refactoring, and model post-training. 邓同蔚的学术主页。"
+description_zh: "邓同蔚（Tongwei Deng），北京大学计算机学院直博生，研究软件工程，关注代码重构、软件维护与模型后训练。"
 canonical: https://6643789wsx.github.io/
 # Date the homepage content was last actually edited (YYYY-MM-DD), used for sitemap lastmod.
 # Update this whenever index.md or the profile/layout content changes.
@@ -23,9 +25,9 @@ orcid: https://orcid.org/0009-0003-8699-8229
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: /assets/img/avatar.png
+favicon: /assets/img/favicon.png
+favicon_dark: /assets/img/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."

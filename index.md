@@ -16,10 +16,8 @@ My research focuses on software engineering, with particular interests in code r
 - 🎉 **[Oct. 2026]** Our paper [LintEval](https://arxiv.org/abs/2610.20027) was accepted to Findings of EMNLP 2026.
 - 💼 **[Sep. 2025]** Started my internship at ByteDance's Trae department.
 
-{% include_relative _includes/publications.md %}
+{% include publications.md %}
 
-## Experiences
+{% include experiences.md %}
 
-- *2025.09 - 2026.04*, [Trae](https://www.trae.ai/) Research, ByteDance, China. Contributed to training data synthesis and post-training for the Doubao-Seed-Code model.
-
-{% include_relative _includes/services.md %}
+{% include services.md %}

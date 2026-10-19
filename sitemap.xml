@@ -1,9 +1,13 @@
 ---
 ---
-<?xml version="1.0" encoding="UTF-8"?>
+{% assign zh_url = site.canonical | append: 'zh/' %}<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{ site.canonical }}</loc>
+    {% if site.homepage_last_modified %}<lastmod>{{ site.homepage_last_modified | date_to_xmlschema }}</lastmod>{% endif %}
+  </url>
+  <url>
+    <loc>{{ zh_url }}</loc>
     {% if site.homepage_last_modified %}<lastmod>{{ site.homepage_last_modified | date_to_xmlschema }}</lastmod>{% endif %}
   </url>
 </urlset>
