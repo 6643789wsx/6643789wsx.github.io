@@ -725,6 +725,24 @@ hr { background:var(--border); }
 .theme-toggle:hover { border-color:var(--link); color:var(--link); transform:rotate(20deg); }
 .theme-toggle:focus-visible { outline:2px solid var(--link); outline-offset:2px; }
 
+.top-nav-links a.lang-toggle {
+  align-self:center;
+  background:transparent;
+  border:1px solid var(--border);
+  border-radius:999px;
+  color:var(--nav-link);
+  flex:0 0 auto;
+  font-size:.72rem;
+  height:2.1rem;
+  letter-spacing:.06em;
+  line-height:calc(2.1rem - 2px);
+  padding:0 .62rem;
+  text-decoration:none;
+  transition:color .2s ease, border-color .2s ease;
+}
+.top-nav-links a.lang-toggle:hover { border-color:var(--link); color:var(--link); transform:none; }
+.top-nav-links a.lang-toggle:focus-visible { outline:2px solid var(--link); outline-offset:2px; }
+
 @media print, screen and (max-width: 720px) {
   .top-nav-inner { align-items:flex-start; flex-direction:column; gap:.7rem; padding:1rem 1.25rem; }
   .top-nav-links { flex-wrap:wrap; gap:.7rem 1.25rem; }

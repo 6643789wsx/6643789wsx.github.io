@@ -4,11 +4,13 @@ en:
   publications: Publications
   experiences: Experiences
   kicker: Academic profile
-  switch: 中文
+  switch: CN
+  switch_title: 切换到中文
 zh:
   about: 关于我
   news: 新闻
   publications: Publications
   experiences: Experiences
   kicker: 学术主页
-  switch: English
+  switch: EN
+  switch_title: Switch to English
