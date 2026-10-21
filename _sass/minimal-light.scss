@@ -677,6 +677,7 @@ body { background:var(--page-bg); color:var(--text); }
 .profile-kicker { color:var(--muted); font-size:.68rem; margin-top:1.5rem; }
 .profile-panel h1 { color:var(--heading); font-size:1.65rem; }
 .profile-panel position, .profile-panel autocolor, .profile-panel email { color:var(--muted); }
+.profile-panel position { white-space:pre-line; }
 .profile-links { border-top:1px solid var(--border); display:grid; gap:.65rem; margin-top:1.7rem; padding-top:1.2rem; }
 .profile-links a { color:var(--text-soft); font-family:"Ubuntu Mono", monospace; font-size:.78rem; }
 .profile-links a:hover { color:var(--link); }
