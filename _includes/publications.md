@@ -1,5 +1,5 @@
 {% assign tl = site.data.i18n.en %}{% if page.lang == 'zh' %}{% assign tl = site.data.i18n.zh %}{% endif %}
-<h2 id="publications" style="margin: 2px 0px -15px;">{{ tl.publications }}</h2>
+<h2 id="publications" style="margin: 2.2rem 0px -15px;">{{ tl.publications }}</h2>
 
 <div class="publications">
 <ul class="publication-list">
