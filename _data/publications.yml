@@ -1,5 +1,11 @@
 main:
 
+  - title: "RefactorTraj: Learning Cross-File Refactoring from Commit-Derived Trajectories"
+    authors: <strong>Tongwei Deng</strong>, Runbang Yan, Hongyi Yang, Junfeng Wang, Yanzhen Zou, Bing Xie
+    conference_short: ICSE
+    ccf_rank: A
+    conference: Proceedings of the 49th IEEE/ACM International Conference on Software Engineering <strong>(ICSE)</strong>, 2027.
+
   - title: "LintEval: Benchmarking LLMs on Linter-Guided File Refactoring"
     authors: <strong>Tongwei Deng</strong>, Jinyu Zhu, Yue Cao, Chenxu Wang, Yanzhen Zou, Bing Xie
     conference_short: EMNLP
