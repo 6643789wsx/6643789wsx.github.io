@@ -15,6 +15,7 @@ lang: zh
 
 - 🎉 **[2026年10月]** 我们的论文 RefactorTraj 被 ICSE 2027 接收。
 - 🎉 **[2026年8月]** 我们的论文 [LintEval](https://arxiv.org/abs/2610.20027) 被 Findings of EMNLP 2026 接收。
+- 💼 **[2025年9月]** 开始在字节跳动 Trae 部门实习。
 
 {% include publications.md %}
 
