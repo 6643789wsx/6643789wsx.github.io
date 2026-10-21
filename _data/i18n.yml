@@ -5,7 +5,6 @@ en:
   experiences: Research Internship
   services: Services
   reviewers: Conference Reviewers
-  kicker: Academic profile
   switch: CN
   switch_title: Switch to Chinese
   theme_toggle: Toggle dark / light mode
@@ -17,7 +16,6 @@ zh:
   experiences: 研究实习
   services: 学术服务
   reviewers: 会议审稿
-  kicker: 学术主页
   switch: EN
   switch_title: 切换到英文
   theme_toggle: 切换深色 / 浅色模式
