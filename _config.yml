@@ -1,8 +1,8 @@
 # Basic Information 
 title: Tongwei Deng
 title_zh: 邓同蔚
-position: Researcher
-position_zh: 研究人员
+position: Ph.D. Student · Peking University
+position_zh: 北京大学 · 博士研究生
 affiliation: 
 email: dtw@stu.pku.edu.cn
 
@@ -15,7 +15,7 @@ description_zh: "邓同蔚，北京大学计算机学院直博生，研究软件
 canonical: https://6643789wsx.github.io/
 # Date the homepage content was last actually edited (YYYY-MM-DD), used for sitemap lastmod.
 # Update this whenever index.md or the profile/layout content changes.
-homepage_last_modified: 2026-10-19
+homepage_last_modified: 2026-10-21
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -26,7 +26,7 @@ orcid: https://orcid.org/0009-0003-8699-8229
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: /assets/img/avatar.png
+avatar: /assets/img/avatar.webp
 favicon: /assets/img/favicon.png
 favicon_dark: /assets/img/favicon-dark.png
 

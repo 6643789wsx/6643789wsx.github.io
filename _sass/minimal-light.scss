@@ -698,8 +698,13 @@ autocolor { color:var(--muted); }
 .publication-list li { margin:0 0 1rem; padding-left:.2rem; }
 .publication-entry { line-height:1.45; }
 .publication-title { font-weight:600; }
+.publication-meta { display:block; margin:.32rem 0 .1rem; }
+.venue-badge { background:var(--badge-bg); color:var(--heading); font-family:"Ubuntu Mono", monospace; font-size:.72rem; font-weight:700; letter-spacing:.03em; padding:.08rem .38rem; }
 .publication-authors, .publication-venue { display:block; font-size:.94rem; }
 .ccf-rank { background:var(--badge-bg); color:var(--link); font-family:"Ubuntu Mono", monospace; font-size:.72rem; font-style:normal; font-weight:700; margin-left:.35rem; padding:.08rem .32rem; }
+.experience-role { color:var(--heading); font-weight:600; }
+.experience-meta { color:var(--muted); font-family:"Ubuntu Mono", monospace; font-size:.78rem; margin:.2rem 0 .55rem; }
+.experience-points { margin:0; }
 .publication-links { font-family:"Ubuntu Mono", monospace; font-size:.75rem; margin-left:.35rem; }
 .publication-links a { margin-right:.35rem; }
 pre { background:var(--card-bg); border:1px solid var(--border); }
