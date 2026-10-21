@@ -5,7 +5,7 @@ last_modified_at: 2026-10-21
 
 ## About Me
 
-I am Tongwei Deng. I received my B.S. degree from the [School of Computer Science and Technology](https://cs.hust.edu.cn/) at [Huazhong University of Science and Technology](https://www.hust.edu.cn/). I am currently pursuing a direct Ph.D. degree at the [School of Computer Science](https://cs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/).
+I am Tongwei Deng. I received my B.S. degree in 2024 from the [School of Computer Science and Technology](https://cs.hust.edu.cn/) at [Huazhong University of Science and Technology](https://www.hust.edu.cn/). I am currently pursuing a direct Ph.D. degree at the [School of Computer Science](https://cs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/), and expect to graduate in June 2029.
 
 My research focuses on software engineering, with particular interests in code refactoring, software maintenance, and model post-training.
 
