@@ -664,7 +664,7 @@ body { background:var(--page-bg); color:var(--text); }
 .site-shell { gap:4rem; grid-template-columns:235px minmax(0, 760px); max-width:1080px; padding:3rem 2.5rem 4rem; }
 .profile-panel { background:transparent; border-right:1px solid var(--border); color:var(--text-soft); min-height:auto; padding:1.5rem 2rem 1.5rem 0; position:static; }
 .profile-panel:before { display:none; }
-.image.avatar img { background:var(--avatar-bg); border:1px solid var(--avatar-border); padding:.45rem; width:132px; }
+.image.avatar img { background:transparent; border:0; border-radius:100%; padding:0; width:132px; }
 .profile-panel h1 { color:var(--heading); font-size:1.65rem; }
 .profile-panel position, .profile-panel autocolor, .profile-panel email { color:var(--muted); }
 .profile-panel position { white-space:pre-line; }
