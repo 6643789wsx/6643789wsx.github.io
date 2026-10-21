@@ -11,6 +11,7 @@ main:
     authors: <strong>Tongwei Deng</strong>, Jinyu Zhu, Yue Cao, Chenxu Wang, Yanzhen Zou, Bing Xie
     conference_short: EMNLP
     year: 2026
+    venue_note: Findings
     conference: Findings of the Conference on Empirical Methods in Natural Language Processing <strong>(Findings of EMNLP)</strong>, 2026.
     pdf: https://arxiv.org/abs/2610.20027
     code: https://github.com/6643789wsx/LintEval
@@ -21,6 +22,7 @@ main:
     authors: Yue Wang, Jiaxuan Sun, <strong>Tongwei Deng</strong>, Wenhui Chang, Yanzhen Zou, Bing Xie
     conference_short: FSE
     year: 2025
+    venue_note: Companion
     conference: Companion Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering <strong>(FSE Companion)</strong>, 2025.
     pdf: https://doi.org/10.1145/3696630.3728594
     bibtex: https://dblp.org/rec/conf/sigsoft/WangSDCZX25.bib
