@@ -3,5 +3,5 @@
 
 **{{ tl.reviewers }}**
 
-- AAAI’26
-- AAAI’25, ICLR’25
+- AAAI’27
+- AAAI’26, ICLR’26
