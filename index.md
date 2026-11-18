@@ -1,6 +1,6 @@
 ---
 layout: homepage
-last_modified_at: 2026-10-21
+last_modified_at: 2026-11-18
 ---
 
 ## About Me

@@ -5,6 +5,7 @@ position: "Ph.D. Student\nPeking University"
 position_zh: "博士研究生\n北京大学"
 affiliation: 
 email: dtw@stu.pku.edu.cn
+cv: /cv.html
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -15,7 +16,7 @@ description_zh: "邓同蔚，北京大学计算机学院直博生，研究软件
 canonical: https://6643789wsx.github.io/
 # Date the homepage content was last actually edited (YYYY-MM-DD), used for sitemap lastmod.
 # Update this whenever index.md or the profile/layout content changes.
-homepage_last_modified: 2026-10-21
+homepage_last_modified: 2026-11-18
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
